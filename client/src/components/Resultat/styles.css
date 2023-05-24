@@ -1,0 +1,19 @@
+.custom-navbar {
+    /* Vos styles personnalisés pour la barre de navigation ici */
+    background-color: lightgray;
+    padding: 10px;
+  }
+  
+  .custom-navbar .nav-link {
+    /* Vos styles personnalisés pour les liens de navigation ici */
+    color: black;
+    font-weight: bold;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  .custom-navbar .nav-link.active {
+    /* Vos styles personnalisés pour le lien actif ici */
+    color: blue;
+  }
+  

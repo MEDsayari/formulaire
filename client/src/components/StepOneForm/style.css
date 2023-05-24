@@ -1,0 +1,47 @@
+.Form_container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #808080;
+  border-radius: 5px;
+  background-color: #f5f5dcf3;
+  max-width: 700px;
+  display: block;
+    margin: 80px auto;
+}
+
+.Form_title {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  margin: 5px 0;
+  padding: 5px;
+  border-radius: 3px;
+  border: none;
+  box-shadow: 1px 1px 2px #808080;
+}
+.Suivant,
+.generate-slug-btn {
+  margin-top: 10px;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: #265dc2;
+  color: white;
+  cursor: pointer;
+  height: 51px;
+  margin-top: 5px !important;
+}
+.Suivant{
+  display: block;
+  margin-left:auto;
+}
+
+.Suivant:hover {
+  background-color: #0074d9;
+}
+.generate-slug-btn:hover {
+  background-color: #0074d9;
+}

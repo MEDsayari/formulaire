@@ -1,0 +1,11 @@
+mongos :bibliotéque son  role connection entre mongodb et l'environement node.js
+require :t3ayet l (module) el fast wahada mel les bibliothéque eli instalithom 
+nodemon reload automatically
+app postman : y5alini ntasti les reqette wa9et el ma 3andich front
+
+
+80% Architectre de projet web ((MVC)=(model view control))
+model== objet howa el bech ta3mel 3lih traitment kima fi el projet hetha el users
+users fel projet hetha{ email ,age ,nom }
+view =les interface el nchoufohom fel projet par exemple les form les tableaux
+controller=les fonction houma eli 5demnehom fel exemple crude kima {delete, apdate ,add, find par}

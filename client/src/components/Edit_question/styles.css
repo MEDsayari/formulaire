@@ -1,0 +1,20 @@
+.btnn{
+    background: #0074d9;
+    padding: 8px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    margin-left: 10px;
+    border: unset;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.validee{
+    background: #0074d9;
+    padding: 8px 20px;
+    border-radius: 6px;
+    font-size: 14px;
+    margin-left: 10px;
+    border: unset;
+    color: #ffffff;
+    margin-left: 168px;
+}

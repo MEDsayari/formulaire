@@ -1,0 +1,45 @@
+ .forgotform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    border: 2px solid #271ad1;
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f5f5dcf3;
+
+  }
+  
+ 
+  
+  .forgotpassword {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 300px;
+    max-width: 100%;
+   
+  }
+  .mail{
+    margin-right: 20px;
+  }
+  
+  .forgotbutton{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left:220px;
+  }
+  
+  .forgotbutton:hover {
+    background-color: #0069d9;
+  }
+  

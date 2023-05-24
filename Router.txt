@@ -1,0 +1,13 @@
+  <Router>
+      <div className="App">
+        <Navbar/>
+        <div className="content">
+          <Routes>
+      <Route exact path="/" element={<Home/>}>
+        </Route>
+         <Route path="/Create" element={<Create/>}>
+           </Route>
+           </Routes>
+    </div>
+    </div>
+    </Router>

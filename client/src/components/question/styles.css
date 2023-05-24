@@ -1,0 +1,225 @@
+    /* Style pour le conteneur principal */
+    .form-container {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+      font-family: Arial, sans-serif;
+    }
+    
+    /* Style pour le champ de question */
+    .form-container input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: none;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+    
+    /* Style pour le bouton de soumission */
+    .submitlabel {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      margin-top: 10px;
+      margin-left: 230px;
+    }
+    
+    /* Style pour les étiquettes de question et de réponse */
+    .answer, .option-label {
+      font-size: 16px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    
+    /* Style pour le champ de réponse */
+    .input {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    }
+    
+    /* Style pour les options de réponse */
+    .option-item {
+      display: flex;
+      align-items: center;
+      margin: 10px 0;
+    }
+    
+    .option-inputtext {
+      margin-left: 5px;
+      padding: 5px;
+      width: 100%;
+      border: none;
+      border-bottom: 2px solid #ccc;
+      font-size: 16px;
+    }
+    
+    /* Style pour le bouton d'ajout d'option */
+    .addoptionbutton {
+      
+      background-color: #008CBA;
+   
+      padding: 8px 20px;
+      border-radius: 6px;
+      font-size: 14px;
+      margin-left: 10px;
+      border: unset;
+      color: #fff;
+    }
+    
+    /* Style pour les questions préenregistrées */
+    .question-predefined {
+      background-color: #f2f2f2;
+      padding: 10px 20px;
+      margin: 10px 0;
+      border-radius: 5px;
+      box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    }
+    
+    /* Style pour la liste des questions préenregistrées */
+    .questions-container {
+      margin-top: 20px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    
+    /* Style pour les options de sélection de question */
+    .select {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: none;
+      border-bottom: 2px solid #ccc;
+      font-size: 16px;
+    }
+    
+    /* Style pour le conteneur d'options */
+    .options-container {
+      display: flex;
+      align-items: center;
+      margin: 10px 0;
+      
+    }
+    
+    /* Style pour les cases à cocher */
+    .options-container input[type="checkbox"] ,input[type="radio"] {
+      margin-right: 10px;
+    vertical-align: middle;
+    }
+    
+    /* Style pour les labels des cases à cocher */
+    .options-container label {
+    display: inline-block;
+    vertical-align: middle;
+    }
+    
+    /* Style pour le conteneur principal */
+    .options-container {
+    margin-top: 20px;
+    }
+    
+    /* Style pour le texte au-dessus du conteneur principal */
+    .options-container h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    }
+    
+    /* Style pour la bordure du conteneur principal */
+    .options-container fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    }
+    
+    /* Style pour la légende du conteneur principal */
+    .options-container legend {
+    font-size: 20px;
+    font-weight: bold;
+    }
+    
+    /* Style pour le bouton de soumission */
+    .options-container input[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    }
+    
+    /* Style pour le lien de réinitialisation */
+    .options-container a.reset-link {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 14px;
+    }
+    
+    /* Style pour les messages d'erreur */
+    .options-container .error-message {
+    color: #f00;
+    font-size: 14px;
+    margin-top: 5px;
+    }
+    
+    /* Style pour les messages de réussite */
+    .options-container .success-message {
+    color: #008000;
+    font-size: 14px;
+    margin-top: 5px;
+    }
+    
+    /* Style pour les messages d'information */
+    .options-container .info-message {
+    color: #0000FF;
+    font-size: 14px;
+    margin-top: 5px;
+    }
+    
+    /* Style pour les messages de confirmation */
+    .options-container .confirm-message {
+    color: #FF8C00;
+    font-size: 14px;
+    margin-top: 5px;
+    }
+    
+    /* Style pour les messages génériques */
+    .options-container .generic-message {
+    font-size: 14px;
+    margin-top: 5px;
+    }
+
+    .action_btn{
+      width: max-content;
+      margin-left: auto;
+    }
+   
+    .action_btn button{ 
+      background: #808080;
+      padding: 8px 20px;
+      border-radius: 6px;
+      font-size: 14px;
+      margin-left: 10px;
+      border: unset;
+      color: #fff;
+    }
+
+    .option{
+      font-size: 14px;
+      margin-left: 20px;
+    }

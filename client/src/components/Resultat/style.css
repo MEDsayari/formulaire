@@ -1,0 +1,32 @@
+/* Styles pour le conteneur des réponses */
+.reponses-container {
+    margin-top: 20px;
+  }
+  
+  /* Styles pour chaque élément de réponse */
+  .reponse-item {
+    margin-bottom: 10px;
+  }
+  
+  /* Styles pour le texte de la question */
+  .reponse-item p {
+    font-weight: bold;
+  }
+  
+  /* Styles pour la liste des valeurs de réponse */
+  .reponse-item ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  /* Styles pour chaque élément de la liste de valeurs */
+  .reponse-item li {
+    margin-bottom: 5px;
+  }
+  
+  /* Styles pour les numéros des valeurs de réponse */
+  .reponse-item li:before {
+    content: "•";
+    margin-right: 5px;
+  }
+  

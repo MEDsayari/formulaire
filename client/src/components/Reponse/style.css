@@ -1,0 +1,156 @@
+
+  
+  .containeer {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+  }
+  
+  h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  }
+  
+  .Formulaire {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+  
+  label {
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+  
+  }
+  
+ 
+  input[type="text"] {
+    font-size: 18px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  p {
+  font-size: 20px;
+  margin-bottom: 10px;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 10px;
+    display: inline-block; 
+    
+  }
+  
+  .button {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: auto;
+  display: block;
+  border-radius: 6px;
+  
+  }
+  
+  button:hover {
+  background-color: #0062cc;
+  }
+  
+  .modal-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  background-color: rgba(255, 255, 255, 0.147);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+  }
+  
+  .modal-container label {
+  margin-bottom: 10px;
+  
+  }
+  
+  .modal-container input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 20px;
+  }
+  
+
+  
+
+
+  .ReactModal__Overlay{
+    background-color: rgb(60 60 60 / 84%) !important;
+    
+  }
+  .ReactModal__Content{
+    position: absolute;
+    width: 450px;
+   
+   
+  }
+
+  .boutn{
+    margin-left: 40%;
+    display: flex;
+    background: #0074d9;
+    border-radius: 6px;
+    font-size: 18px;
+    border: unset;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+
+  .icon{
+    margin-right: 5px;
+
+  }
+  .popup{
+    height: max-content;
+    top: 100px;
+    left: calc(50% - 200px);
+    border: 1px solid rgb(204, 204, 204);
+    background: rgb(255, 255, 255);
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 25px 40px;
+  }
+
+
+ .titre{
+ margin-left: calc(30%) ;
+ color: rgb(0, 0, 0);
+
+ }
+ .Submit{
+  background-color: #008CBA;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px 0;
+  margin-left: calc(90%) ;
+ }
